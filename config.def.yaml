@@ -1,0 +1,23 @@
+logger:
+    level: info
+    prefix: '[TeleGPT]'
+    show_line: true
+    log_in_console: true
+api:
+    api_link: https://api.openai.com/v1/chat/completions
+    api_key: 
+    api_model: 
+    api_prompt: You are a helpful assistant.
+    api_timeout: 10
+    api_temperature: 0
+    api_top_k: 1
+    api_top_p: 1
+    proxy: ""
+bot:
+    bottoken:
+    bot_user_name:
+    privacy: true
+group:
+    clear_word: "#清除"
+    admin_id:
+    Whitelist: []
